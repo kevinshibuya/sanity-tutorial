@@ -1,3 +1,4 @@
-import pet from './pet'
+import author from './author'
+import post from './post'
 
-export const schemaTypes = [pet]
+export const schemaTypes = [post, author]
