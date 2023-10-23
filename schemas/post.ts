@@ -10,13 +10,21 @@ export default {
     },
     {
       name: 'date',
-      type: 'date',
+      type: 'datetime',
       title: 'Date',
     },
     {
       name: 'content',
-      type: 'text',
+      type: 'array',
       title: 'Content',
+      of: [
+        {
+          type: 'block',
+        },
+        {
+          type: 'image',
+        },
+      ],
     },
     {
       name: 'image',
